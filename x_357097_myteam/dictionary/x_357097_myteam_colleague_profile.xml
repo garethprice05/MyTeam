@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Colleague Profile" max_length="40" name="x_357097_myteam_colleague_profile" sizeclass="10" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Background and Personal" max_length="4000" name="background_and_personal" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Birthday" max_length="40" name="birthday" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Employee Type" mandatory="true" max_length="40" name="employee_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Permanent" sequence="0" value="Permanent"/>
+                <element inactive_on_update="false" label="Contract" sequence="1" value="Contract"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="LinkedIn" max_length="1024" name="linkedin" type="url"/>
+        <element attributes="encode_utf8=false" label="Manager" mandatory="true" max_length="32" name="manager" reference="sys_user" type="reference"/>
+        <element display="true" label="Name" mandatory="true" max_length="32" name="name" reference="sys_user" type="reference"/>
+        <element label="Notes" max_length="65536" name="notes" type="html"/>
+        <element attributes="pdf_cell_type=image" default="images/questionicon.svg" label="Photo" max_length="40" name="photo" type="user_image"/>
+        <element attributes="edge_encryption_enabled=true" label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <index name="index">
+            <element name="manager"/>
+        </index>
+        <index name="index2">
+            <element name="name"/>
+        </index>
+    </element>
+</database>

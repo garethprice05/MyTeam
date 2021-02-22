@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_fix">
+    <sys_script_fix action="DELETE">
+        <active>true</active>
+        <before>false</before>
+        <description/>
+        <flush_cache>false</flush_cache>
+        <name>Get Global Tasks</name>
+        <record_for_rollback>false</record_for_rollback>
+        <run_once>true</run_once>
+        <script><![CDATA[var current = getRecord('5eb1ea012fd2201054daa1fef699b6d6');
+
+var gr = new GlideRecord("x_357097_myteam_myteam_task");
+gr.addEncodedQuery("global_task=true^team_member=6b1396122f52201054daa1fef699b68b");
+gr.query();
+while (gr.next()) {
+    insertCopy(gr);
+
+}
+
+function insertCopy(gr) {
+    var copy = new GlideRecord("x_357097_myteam_myteam_task");
+    copy.initialize();
+    copy.number = "";
+    copy.short_description = gr.short_description;
+	copy.team_member = current;
+	copy.insert();
+}
+
+function getRecord(u) {
+    var gr = new GlideRecord("x_357097_myteam_colleague_profile");
+    return gr;
+
+}]]></script>
+        <sys_class_name>sys_script_fix</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 14:42:56</sys_created_on>
+        <sys_id>f38f0bda2fd2201054daa1fef699b6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Global Tasks</sys_name>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name>sys_script_fix_f38f0bda2fd2201054daa1fef699b6d6</sys_update_name>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 14:42:56</sys_updated_on>
+        <unloadable>false</unloadable>
+    </sys_script_fix>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</application>
+        <file_path/>
+        <instance_id>564aea0adbf0df0852e3f70fbf96194b</instance_id>
+        <instance_name>dev52683</instance_name>
+        <name>sys_script_fix_f38f0bda2fd2201054daa1fef699b6d6</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_fix"&gt;&lt;sys_script_fix action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;before&gt;false&lt;/before&gt;&lt;description/&gt;&lt;flush_cache&gt;false&lt;/flush_cache&gt;&lt;name&gt;Get Global Tasks&lt;/name&gt;&lt;record_for_rollback&gt;false&lt;/record_for_rollback&gt;&lt;run_once&gt;true&lt;/run_once&gt;&lt;script&gt;&lt;![CDATA[var current = getRecord('5eb1ea012fd2201054daa1fef699b6d6');
+
+var gr = new GlideRecord("x_357097_myteam_myteam_task");
+gr.addEncodedQuery("global_task=true^team_member=6b1396122f52201054daa1fef699b68b");
+gr.query();
+while (gr.next()) {
+    insertCopy(gr);
+
+}
+
+function insertCopy(gr) {
+    var copy = new GlideRecord("x_357097_myteam_myteam_task");
+    copy.initialize();
+    copy.number = "";
+    copy.short_description = gr.short_description;
+	copy.team_member = current;
+	copy.insert();
+}
+
+function getRecord(u) {
+    var gr = new GlideRecord("x_357097_myteam_colleague_profile");
+    return gr;
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_fix&lt;/sys_class_name&gt;&lt;sys_created_by&gt;adm.gareth.price&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-02-15 14:42:56&lt;/sys_created_on&gt;&lt;sys_id&gt;f38f0bda2fd2201054daa1fef699b6d6&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get Global Tasks&lt;/sys_name&gt;&lt;sys_package display_value="MyTeam" source="x_357097_myteam"&gt;4fce6d492f12201054daa1fef699b61c&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="MyTeam"&gt;4fce6d492f12201054daa1fef699b61c&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_fix_f38f0bda2fd2201054daa1fef699b6d6&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;adm.gareth.price&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-02-15 14:42:56&lt;/sys_updated_on&gt;&lt;unloadable&gt;false&lt;/unloadable&gt;&lt;/sys_script_fix&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>266352326</payload_hash>
+        <record_name>Get Global Tasks</record_name>
+        <reverted_from/>
+        <source>03cea5c92f12201054daa1fef699b6c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 14:42:56</sys_created_on>
+        <sys_id>c1515f1e2fd2201054daa1fef699b6a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177a624f6690000001</sys_recorded_at>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 14:42:56</sys_updated_on>
+        <type>Fix Script</type>
+        <update_guid>0d515f1e6cd22010aa5d3d9103c389a1</update_guid>
+        <update_guid_history>0d515f1e6cd22010aa5d3d9103c389a1:266352326</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 14:47:42</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_fix">sys_script_fix</sys_db_object>
+        <sys_id>2b8b7a60d0314348b6d4df792fa6b424</sys_id>
+        <sys_metadata>f38f0bda2fd2201054daa1fef699b6d6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get Global Tasks</sys_name>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_scope_delete display_value="">2929f4ec590c4e4597944b706ddb3221</sys_scope_delete>
+        <sys_update_name>sys_script_fix_f38f0bda2fd2201054daa1fef699b6d6</sys_update_name>
+        <sys_update_version display_value="sys_script_fix_f38f0bda2fd2201054daa1fef699b6d6">c1515f1e2fd2201054daa1fef699b6a2</sys_update_version>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 14:47:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

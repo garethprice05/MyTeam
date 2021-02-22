@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Objectives" max_length="40" name="x_357097_myteam_objectives" sizeclass="18" type="collection">
+        <element label="Global Task" max_length="32" name="global_task" reference="x_357097_myteam_global_tasks_and_objectives" type="reference"/>
+        <element attributes="encode_utf8=false" label="Team Member" max_length="32" name="team_member" reference="x_357097_myteam_colleague_profile" type="reference"/>
+    </element>
+</database>

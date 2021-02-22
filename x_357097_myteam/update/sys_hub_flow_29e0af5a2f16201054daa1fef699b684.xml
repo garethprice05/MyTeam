@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation>Calculates the due date to complete the task based on the estimated days to complete</annotation>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>calculate_time_to_complete</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Calculate Time to Complete</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:50:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29e0af5a2f16201054daa1fef699b684</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Calculate Time to Complete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name>sys_hub_flow_29e0af5a2f16201054daa1fef699b684</sys_update_name>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:52:25</sys_updated_on>
+        <type>subflow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=29e0af5a2f16201054daa1fef699b684"/>
+    <sys_variable_value action="delete_multiple" query="document_key=29e0af5a2f16201054daa1fef699b684"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=29e0af5a2f16201054daa1fef699b684^sys_idNOT INa9e0af5a2f16201054daa1fef699b685"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>29e0af5a2f16201054daa1fef699b684</id>
+        <name>Calculate Time to Complete</name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:50:57</sys_created_on>
+        <sys_id>a9e0af5a2f16201054daa1fef699b685</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:50:57</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=29e0af5a2f16201054daa1fef699b684^sys_idNOT INf231a3da2f16201054daa1fef699b6b9"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=0f5ba0f5-fcb2-4b57-8f54-2671616e21ff</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_357097_myteam_global_tasks_and_objectives</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>global_task</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Global Task</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Calculate Time to Complete">29e0af5a2f16201054daa1fef699b684</model>
+        <model_id>29e0af5a2f16201054daa1fef699b684</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_29e0af5a2f16201054daa1fef699b684</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_357097_myteam_global_tasks_and_objectives">x_357097_myteam_global_tasks_and_objectives</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:52:25</sys_created_on>
+        <sys_id>f231a3da2f16201054daa1fef699b6b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:52:25</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_29e0af5a2f16201054daa1fef699b684^sys_idNOT IN47312bda2f16201054daa1fef699b6a1"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>global_task</element>
+        <help/>
+        <hint/>
+        <label>Global Task</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_29e0af5a2f16201054daa1fef699b684</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:52:25</sys_created_on>
+        <sys_id>47312bda2f16201054daa1fef699b6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:52:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>

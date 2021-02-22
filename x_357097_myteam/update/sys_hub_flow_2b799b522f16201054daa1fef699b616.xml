@@ -1,0 +1,1946 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build>glide-orlando-12-11-2019__patch7-08-19-2020</compiler_build>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>add_new_global_tasks</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Global Tasks and Objectives Record","reference":"x_357097_myteam_global_tasks_and_objectives","reference_display":"Global Tasks and Objectives","type":"reference","base_type":"reference","attributes":{}},{"name":"aaa96e00-1473-4254-99cd-3cc939fe162c.table_name","label":"3.2.1➛Objectives Table","reference":"x_357097_myteam_objectives","reference_display":"Objectives","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aaa96e00-1473-4254-99cd-3cc939fe162c.record","label":"3.2.1➛Objectives Record","reference":"x_357097_myteam_objectives","reference_display":"Objectives","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.task_short_description","label":"Trigger➛Global Tasks and Objectives Record➛Task Short Description","reference":"","reference_display":"Task Short Description","type":"string","base_type":"string","parent_table_name":"x_357097_myteam_global_tasks_and_objectives","column_name":"task_short_description"},{"name":"25a4d3f8-ee6d-4c27-b426-bb5d2b2674de.table_name","label":"3.1.1➛MyTeam Task Table","reference":"x_357097_myteam_myteam_task","reference_display":"MyTeam Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"25a4d3f8-ee6d-4c27-b426-bb5d2b2674de.record","label":"3.1.1➛MyTeam Task Record","reference":"x_357097_myteam_myteam_task","reference_display":"MyTeam Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2b5b1fda-8742-420f-925f-eed678705aab.item","label":"3➛Colleague Profile Record","reference":"x_357097_myteam_colleague_profile","reference_display":"Colleague Profile","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created_1.current.task_type","label":"Trigger➛Global Tasks and Objectives Record➛Task Type","reference":"","reference_display":"Task Type","type":"choice","base_type":"choice","parent_table_name":"x_357097_myteam_global_tasks_and_objectives","column_name":"task_type"},{"name":"f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Table","label":"1➛Colleague Profile Table","reference":"x_357097_myteam_colleague_profile","reference_display":"Colleague Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Records","label":"1➛Colleague Profile Records","reference":"x_357097_myteam_colleague_profile","reference_display":"Colleague Profile","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date","label":"2➛Due Date","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"958d5926-616e-4498-a87f-26241d0bb5e0"}},{"name":"Created_1.current.estimated_time_to_complete","label":"Trigger➛Global Tasks and Objectives Record➛Estimated Time to Complete","reference":"","reference_display":"Estimated Time to Complete","type":"string","base_type":"string","parent_table_name":"x_357097_myteam_global_tasks_and_objectives","column_name":"estimated_time_to_complete"}]</label_cache>
+        <latest_snapshot>b233675e2f16201054daa1fef699b613</latest_snapshot>
+        <master_snapshot>043adb162f16201054daa1fef699b6f1</master_snapshot>
+        <name>Add New Global Tasks</name>
+        <natlang/>
+        <outputs/>
+        <remote_trigger_id>283a1f162f16201054daa1fef699b646</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:18:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2b799b522f16201054daa1fef699b616</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Add New Global Tasks</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name>sys_hub_flow_2b799b522f16201054daa1fef699b616</sys_update_name>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:38</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=2b799b522f16201054daa1fef699b616"/>
+    <sys_variable_value action="delete_multiple" query="document_key=2b799b522f16201054daa1fef699b616"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_357097_myteam_global_tasks_and_objectives">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>true</on_insert>
+        <on_update>false</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>283a1f162f16201054daa1fef699b646</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:40</sys_updated_on>
+        <table>x_357097_myteam_global_tasks_and_objectives</table>
+    </sys_flow_record_trigger>
+    <sys_hub_flow_component action="delete_multiple" query="flow=2b799b522f16201054daa1fef699b616^sys_idNOT IN0d13235e2f16201054daa1fef699b6be,2b2adb162f16201054daa1fef699b692,2f2adb162f16201054daa1fef699b68d,332adb162f16201054daa1fef699b69e,632adb162f16201054daa1fef699b695,bb2adb162f16201054daa1fef699b69b,fb2adb162f16201054daa1fef699b699"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Calculate Due Date">bcd22f1e2f16201054daa1fef699b6a9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bcd22f1e2f16201054daa1fef699b6a9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:29</sys_created_on>
+        <sys_id>0d13235e2f16201054daa1fef699b6be</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>43f0325f-7f19-4d7f-8814-b1fa79593f5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d13235e2f16201054daa1fef699b6be"/>
+    <sys_element_mapping action="delete_multiple" query="id=0d13235e2f16201054daa1fef699b6be"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_days</field>
+        <id>0d13235e2f16201054daa1fef699b6be</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:29</sys_created_on>
+        <sys_id>0513235e2f16201054daa1fef699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bcd22f1e2f16201054daa1fef699b6a9</table>
+        <value>{{Created_1.current.estimated_time_to_complete}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>2b2adb162f16201054daa1fef699b692</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>25a4d3f8-ee6d-4c27-b426-bb5d2b2674de</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2b2adb162f16201054daa1fef699b692"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2b2adb162f16201054daa1fef699b692</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>232adb162f16201054daa1fef699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <value>x_357097_myteam_myteam_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2b2adb162f16201054daa1fef699b692"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2b2adb162f16201054daa1fef699b692</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>eb2adb162f16201054daa1fef699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2b2adb162f16201054daa1fef699b692</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>af2adb162f16201054daa1fef699b693</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>2f2adb162f16201054daa1fef699b68d</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f2adb162f16201054daa1fef699b68d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f2adb162f16201054daa1fef699b68d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>672adb162f16201054daa1fef699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <value>x_357097_myteam_colleague_profile</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f2adb162f16201054daa1fef699b68d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>a32adb162f16201054daa1fef699b690</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:23:56</sys_updated_on>
+        <value>employee_type=Permanent</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7b2adb162f16201054daa1fef699b69d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>332adb162f16201054daa1fef699b69e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <ui_id>2b5b1fda-8742-420f-925f-eed678705aab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=332adb162f16201054daa1fef699b69e"/>
+    <sys_element_mapping action="delete_multiple" query="id=332adb162f16201054daa1fef699b69e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>332adb162f16201054daa1fef699b69e</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>772adb162f16201054daa1fef699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a72adb162f16201054daa1fef699b694</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>632adb162f16201054daa1fef699b695</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=632adb162f16201054daa1fef699b695"/>
+    <sys_element_mapping action="delete_multiple" query="id=632adb162f16201054daa1fef699b695"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>632adb162f16201054daa1fef699b695</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>ab2adb162f16201054daa1fef699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.task_type}}=MyTeam Task</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f32adb162f16201054daa1fef699b69b</block>
+        <comment/>
+        <connected_to>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>bb2adb162f16201054daa1fef699b69b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bb2adb162f16201054daa1fef699b69b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>fb2adb162f16201054daa1fef699b699</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>aaa96e00-1473-4254-99cd-3cc939fe162c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fb2adb162f16201054daa1fef699b699"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fb2adb162f16201054daa1fef699b699</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>ff2adb162f16201054daa1fef699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:37</sys_updated_on>
+        <value>x_357097_myteam_objectives</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fb2adb162f16201054daa1fef699b699"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fb2adb162f16201054daa1fef699b699</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>bb2adb162f16201054daa1fef699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fb2adb162f16201054daa1fef699b699</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>7f2adb162f16201054daa1fef699b69a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=2b799b522f16201054daa1fef699b616^sys_idNOT IN672adb162f16201054daa1fef699b67d"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>672adb162f16201054daa1fef699b67d</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=672adb162f16201054daa1fef699b67d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>672adb162f16201054daa1fef699b67d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>af2adb162f16201054daa1fef699b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <value>x_357097_myteam_global_tasks_and_objectives</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>672adb162f16201054daa1fef699b67d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>eb2adb162f16201054daa1fef699b67d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=2b799b522f16201054daa1fef699b616^sys_idNOT INab799b522f16201054daa1fef699b617"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>2b799b522f16201054daa1fef699b616</id>
+        <name>Add New Global Tasks</name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:18:36</sys_created_on>
+        <sys_id>ab799b522f16201054daa1fef699b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:18:36</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=2b799b522f16201054daa1fef699b616^sys_idNOT INab2adb162f16201054daa1fef699b676,e72a97162f16201054daa1fef699b6df"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</model>
+        <model_id>2b799b522f16201054daa1fef699b616</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2b799b522f16201054daa1fef699b616</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>ab2adb162f16201054daa1fef699b676</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</model>
+        <model_id>2b799b522f16201054daa1fef699b616</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_2b799b522f16201054daa1fef699b616</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>e72a97162f16201054daa1fef699b6df</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=2b799b522f16201054daa1fef699b616^sys_idNOT IN0d13235e2f16201054daa1fef699b6be,2b2adb162f16201054daa1fef699b692,2f2adb162f16201054daa1fef699b68d,fb2adb162f16201054daa1fef699b699"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Calculate Due Date">bcd22f1e2f16201054daa1fef699b6a9</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>bcd22f1e2f16201054daa1fef699b6a9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:29</sys_created_on>
+        <sys_id>0d13235e2f16201054daa1fef699b6be</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>43f0325f-7f19-4d7f-8814-b1fa79593f5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=0d13235e2f16201054daa1fef699b6be"/>
+    <sys_element_mapping action="delete_multiple" query="id=0d13235e2f16201054daa1fef699b6be"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_days</field>
+        <id>0d13235e2f16201054daa1fef699b6be</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:29</sys_created_on>
+        <sys_id>0513235e2f16201054daa1fef699b6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bcd22f1e2f16201054daa1fef699b6a9</table>
+        <value>{{Created_1.current.estimated_time_to_complete}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>2b2adb162f16201054daa1fef699b692</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>25a4d3f8-ee6d-4c27-b426-bb5d2b2674de</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2b2adb162f16201054daa1fef699b692"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2b2adb162f16201054daa1fef699b692</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>232adb162f16201054daa1fef699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <value>x_357097_myteam_myteam_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2b2adb162f16201054daa1fef699b692"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>2b2adb162f16201054daa1fef699b692</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>eb2adb162f16201054daa1fef699b693</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>2b2adb162f16201054daa1fef699b692</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>af2adb162f16201054daa1fef699b693</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>2f2adb162f16201054daa1fef699b68d</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2f2adb162f16201054daa1fef699b68d"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f2adb162f16201054daa1fef699b68d</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>672adb162f16201054daa1fef699b690</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <value>x_357097_myteam_colleague_profile</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2f2adb162f16201054daa1fef699b68d</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>a32adb162f16201054daa1fef699b690</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:23:56</sys_updated_on>
+        <value>employee_type=Permanent</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>fb2adb162f16201054daa1fef699b699</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:01:11</sys_updated_on>
+        <ui_id>aaa96e00-1473-4254-99cd-3cc939fe162c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=fb2adb162f16201054daa1fef699b699"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>fb2adb162f16201054daa1fef699b699</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>ff2adb162f16201054daa1fef699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:37</sys_updated_on>
+        <value>x_357097_myteam_objectives</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=fb2adb162f16201054daa1fef699b699"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>fb2adb162f16201054daa1fef699b699</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>bb2adb162f16201054daa1fef699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>fb2adb162f16201054daa1fef699b699</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>7f2adb162f16201054daa1fef699b69a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:29</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=2b799b522f16201054daa1fef699b616^sys_idNOT IN332adb162f16201054daa1fef699b69e,632adb162f16201054daa1fef699b695,bb2adb162f16201054daa1fef699b69b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7b2adb162f16201054daa1fef699b69d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>332adb162f16201054daa1fef699b69e</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <ui_id>2b5b1fda-8742-420f-925f-eed678705aab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=332adb162f16201054daa1fef699b69e"/>
+    <sys_element_mapping action="delete_multiple" query="id=332adb162f16201054daa1fef699b69e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>332adb162f16201054daa1fef699b69e</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>772adb162f16201054daa1fef699b6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:37</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a72adb162f16201054daa1fef699b694</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>632adb162f16201054daa1fef699b695</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=632adb162f16201054daa1fef699b695"/>
+    <sys_element_mapping action="delete_multiple" query="id=632adb162f16201054daa1fef699b695"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>632adb162f16201054daa1fef699b695</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>ab2adb162f16201054daa1fef699b697</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.task_type}}=MyTeam Task</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f32adb162f16201054daa1fef699b69b</block>
+        <comment/>
+        <connected_to>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:37</sys_created_on>
+        <sys_id>bb2adb162f16201054daa1fef699b69b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bb2adb162f16201054daa1fef699b69b"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_2b799b522f16201054daa1fef699b616^sys_idNOT IN2b2adb162f16201054daa1fef699b67a,e32adb162f16201054daa1fef699b675"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2b799b522f16201054daa1fef699b616</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>2b2adb162f16201054daa1fef699b67a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_2b799b522f16201054daa1fef699b616</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:36</sys_created_on>
+        <sys_id>e32adb162f16201054daa1fef699b675</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=2b799b522f16201054daa1fef699b616^sys_idNOT INa03a1f162f16201054daa1fef699b647"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"a03a1f162f16201054daa1fef699b647","name":"plan"}}</plan>
+        <plan_id>2b799b522f16201054daa1fef699b616</plan_id>
+        <snapshot>b233675e2f16201054daa1fef699b613</snapshot>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a03a1f162f16201054daa1fef699b647</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:49:02</sys_updated_on>
+        <trigger display_value="">283a1f162f16201054daa1fef699b646</trigger>
+    </sys_flow_trigger_plan>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>add_new_global_tasks</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"Trigger➛Global Tasks and Objectives Record","reference":"x_357097_myteam_global_tasks_and_objectives","reference_display":"Global Tasks and Objectives","type":"reference","base_type":"reference","attributes":{}},{"name":"aaa96e00-1473-4254-99cd-3cc939fe162c.table_name","label":"3.2.1➛Objectives Table","reference":"x_357097_myteam_objectives","reference_display":"Objectives","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"aaa96e00-1473-4254-99cd-3cc939fe162c.record","label":"3.2.1➛Objectives Record","reference":"x_357097_myteam_objectives","reference_display":"Objectives","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Created_1.current.task_short_description","label":"Trigger➛Global Tasks and Objectives Record➛Task Short Description","reference":"","reference_display":"Task Short Description","type":"string","base_type":"string","parent_table_name":"x_357097_myteam_global_tasks_and_objectives","column_name":"task_short_description"},{"name":"25a4d3f8-ee6d-4c27-b426-bb5d2b2674de.table_name","label":"3.1.1➛MyTeam Task Table","reference":"x_357097_myteam_myteam_task","reference_display":"MyTeam Task","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"25a4d3f8-ee6d-4c27-b426-bb5d2b2674de.record","label":"3.1.1➛MyTeam Task Record","reference":"x_357097_myteam_myteam_task","reference_display":"MyTeam Task","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"2b5b1fda-8742-420f-925f-eed678705aab.item","label":"3➛Colleague Profile Record","reference":"x_357097_myteam_colleague_profile","reference_display":"Colleague Profile","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"Created_1.current.task_type","label":"Trigger➛Global Tasks and Objectives Record➛Task Type","reference":"","reference_display":"Task Type","type":"choice","base_type":"choice","parent_table_name":"x_357097_myteam_global_tasks_and_objectives","column_name":"task_type"},{"name":"f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Count","label":"1➛Count","reference_display":"Count","type":"integer","base_type":"integer","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Table","label":"1➛Colleague Profile Table","reference":"x_357097_myteam_colleague_profile","reference_display":"Colleague Profile","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Records","label":"1➛Colleague Profile Records","reference":"x_357097_myteam_colleague_profile","reference_display":"Colleague Profile","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date","label":"2➛Due Date","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"958d5926-616e-4498-a87f-26241d0bb5e0"}},{"name":"Created_1.current.estimated_time_to_complete","label":"Trigger➛Global Tasks and Objectives Record➛Estimated Time to Complete","reference":"","reference_display":"Estimated Time to Complete","type":"string","base_type":"string","parent_table_name":"x_357097_myteam_global_tasks_and_objectives","column_name":"estimated_time_to_complete"}]</label_cache>
+        <master>true</master>
+        <name>Add New Global Tasks</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Add New Global Tasks">2b799b522f16201054daa1fef699b616</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>043adb162f16201054daa1fef699b6f1</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=043adb162f16201054daa1fef699b6f1"/>
+    <sys_variable_value action="delete_multiple" query="document_key=043adb162f16201054daa1fef699b6f1"/>
+    <sys_hub_flow_component action="delete_multiple" query="flow=043adb162f16201054daa1fef699b6f1^sys_idNOT IN1e13635e2f16201054daa1fef699b6cc,583a1f162f16201054daa1fef699b618,903a1f162f16201054daa1fef699b61b,903a1f162f16201054daa1fef699b626,943a1f162f16201054daa1fef699b629,d43a1f162f16201054daa1fef699b621,dc3a1f162f16201054daa1fef699b614"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Calculate Due Date">bcd22f1e2f16201054daa1fef699b6a9</action_type>
+        <action_type_parent display_value="Calculate Due Date">e1416bda2f16201054daa1fef699b635</action_type_parent>
+        <comment/>
+        <compiled_snapshot>bcd22f1e2f16201054daa1fef699b6a9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:34</sys_created_on>
+        <sys_id>1e13635e2f16201054daa1fef699b6cc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>43f0325f-7f19-4d7f-8814-b1fa79593f5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1e13635e2f16201054daa1fef699b6cc"/>
+    <sys_element_mapping action="delete_multiple" query="id=1e13635e2f16201054daa1fef699b6cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_days</field>
+        <id>1e13635e2f16201054daa1fef699b6cc</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:34</sys_created_on>
+        <sys_id>5a13635e2f16201054daa1fef699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bcd22f1e2f16201054daa1fef699b6a9</table>
+        <value>{{Created_1.current.estimated_time_to_complete}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f32adb162f16201054daa1fef699b69b</block>
+        <comment/>
+        <connected_to>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>583a1f162f16201054daa1fef699b618</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=583a1f162f16201054daa1fef699b618"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7b2adb162f16201054daa1fef699b69d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>903a1f162f16201054daa1fef699b61b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>2b5b1fda-8742-420f-925f-eed678705aab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=903a1f162f16201054daa1fef699b61b"/>
+    <sys_element_mapping action="delete_multiple" query="id=903a1f162f16201054daa1fef699b61b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>903a1f162f16201054daa1fef699b61b</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>583a1f162f16201054daa1fef699b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>903a1f162f16201054daa1fef699b626</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>25a4d3f8-ee6d-4c27-b426-bb5d2b2674de</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=903a1f162f16201054daa1fef699b626"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>903a1f162f16201054daa1fef699b626</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>943a1f162f16201054daa1fef699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>x_357097_myteam_myteam_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=903a1f162f16201054daa1fef699b626"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>903a1f162f16201054daa1fef699b626</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>503a1f162f16201054daa1fef699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>903a1f162f16201054daa1fef699b626</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>143a1f162f16201054daa1fef699b627</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>943a1f162f16201054daa1fef699b629</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>aaa96e00-1473-4254-99cd-3cc939fe162c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=943a1f162f16201054daa1fef699b629"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>943a1f162f16201054daa1fef699b629</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>983a1f162f16201054daa1fef699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>x_357097_myteam_objectives</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=943a1f162f16201054daa1fef699b629"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>943a1f162f16201054daa1fef699b629</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>543a1f162f16201054daa1fef699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>943a1f162f16201054daa1fef699b629</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>183a1f162f16201054daa1fef699b62a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>d43a1f162f16201054daa1fef699b621</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d43a1f162f16201054daa1fef699b621"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d43a1f162f16201054daa1fef699b621</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>143a1f162f16201054daa1fef699b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>x_357097_myteam_colleague_profile</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d43a1f162f16201054daa1fef699b621</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>503a1f162f16201054daa1fef699b623</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:24:00</sys_updated_on>
+        <value>employee_type=Permanent</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a72adb162f16201054daa1fef699b694</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>dc3a1f162f16201054daa1fef699b614</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dc3a1f162f16201054daa1fef699b614"/>
+    <sys_element_mapping action="delete_multiple" query="id=dc3a1f162f16201054daa1fef699b614"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>dc3a1f162f16201054daa1fef699b614</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>9c3a1f162f16201054daa1fef699b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.task_type}}=MyTeam Task</value>
+    </sys_element_mapping>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=043adb162f16201054daa1fef699b6f1^sys_idNOT IN9c3a1f162f16201054daa1fef699b62a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <name>Created</name>
+        <remote_sys_id/>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>9c3a1f162f16201054daa1fef699b62a</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:37</sys_updated_on>
+        <trigger_definition display_value="Created">798916a0c31322002841b63b12d3ae7c</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_create</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=9c3a1f162f16201054daa1fef699b62a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9c3a1f162f16201054daa1fef699b62a</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>543a1f162f16201054daa1fef699b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>x_357097_myteam_global_tasks_and_objectives</value>
+        <variable display_value="">cfca92e0c31322002841b63b12d3ae00</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>9c3a1f162f16201054daa1fef699b62a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>903a1f162f16201054daa1fef699b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="">66aadea0c31322002841b63b12d3aebf</variable>
+    </sys_variable_value>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=043adb162f16201054daa1fef699b6f1^sys_idNOT INcc3adb162f16201054daa1fef699b6f1"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>043adb162f16201054daa1fef699b6f1</id>
+        <name>Add New Global Tasks</name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:38</sys_created_on>
+        <sys_id>cc3adb162f16201054daa1fef699b6f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:38</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_hub_flow_input action="delete_multiple" query="model=043adb162f16201054daa1fef699b6f1^sys_idNOT IN543a1f162f16201054daa1fef699b609,cc3adb162f16201054daa1fef699b6f2"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</model>
+        <model_id>043adb162f16201054daa1fef699b6f1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_043adb162f16201054daa1fef699b6f1</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>543a1f162f16201054daa1fef699b609</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</model>
+        <model_id>043adb162f16201054daa1fef699b6f1</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_043adb162f16201054daa1fef699b6f1</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:38</sys_created_on>
+        <sys_id>cc3adb162f16201054daa1fef699b6f2</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:34</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_instance action="delete_multiple" query="flow=043adb162f16201054daa1fef699b6f1^sys_idNOT IN1e13635e2f16201054daa1fef699b6cc,903a1f162f16201054daa1fef699b626,943a1f162f16201054daa1fef699b629,d43a1f162f16201054daa1fef699b621"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Calculate Due Date">bcd22f1e2f16201054daa1fef699b6a9</action_type>
+        <action_type_parent display_value="Calculate Due Date">e1416bda2f16201054daa1fef699b635</action_type_parent>
+        <comment/>
+        <compiled_snapshot>bcd22f1e2f16201054daa1fef699b6a9</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:34</sys_created_on>
+        <sys_id>1e13635e2f16201054daa1fef699b6cc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>43f0325f-7f19-4d7f-8814-b1fa79593f5f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=1e13635e2f16201054daa1fef699b6cc"/>
+    <sys_element_mapping action="delete_multiple" query="id=1e13635e2f16201054daa1fef699b6cc"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>number_of_days</field>
+        <id>1e13635e2f16201054daa1fef699b6cc</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 16:00:34</sys_created_on>
+        <sys_id>5a13635e2f16201054daa1fef699b6cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_bcd22f1e2f16201054daa1fef699b6a9</table>
+        <value>{{Created_1.current.estimated_time_to_complete}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>3.1.1</order>
+        <parent_ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>903a1f162f16201054daa1fef699b626</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>25a4d3f8-ee6d-4c27-b426-bb5d2b2674de</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=903a1f162f16201054daa1fef699b626"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>903a1f162f16201054daa1fef699b626</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>943a1f162f16201054daa1fef699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>x_357097_myteam_myteam_task</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=903a1f162f16201054daa1fef699b626"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>903a1f162f16201054daa1fef699b626</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>503a1f162f16201054daa1fef699b627</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>903a1f162f16201054daa1fef699b626</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>143a1f162f16201054daa1fef699b627</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>3.2.1</order>
+        <parent_ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>943a1f162f16201054daa1fef699b629</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>aaa96e00-1473-4254-99cd-3cc939fe162c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=943a1f162f16201054daa1fef699b629"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>943a1f162f16201054daa1fef699b629</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>983a1f162f16201054daa1fef699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>x_357097_myteam_objectives</value>
+        <variable display_value="">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=943a1f162f16201054daa1fef699b629"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>943a1f162f16201054daa1fef699b629</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>543a1f162f16201054daa1fef699b62a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>943a1f162f16201054daa1fef699b629</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>183a1f162f16201054daa1fef699b62a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:34</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1</table>
+        <value>short_description={{Created_1.current.task_short_description}}^team_member={{2b5b1fda-8742-420f-925f-eed678705aab.item}}^global_task={{Created_1.current}}^due_date={{43f0325f-7f19-4d7f-8814-b1fa79593f5f.due_date}}</value>
+    </sys_element_mapping>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <comment/>
+        <compiled_snapshot>43400a1587003300663ca1bb36cb0b4b</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>d43a1f162f16201054daa1fef699b621</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d43a1f162f16201054daa1fef699b621"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d43a1f162f16201054daa1fef699b621</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>143a1f162f16201054daa1fef699b623</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <value>x_357097_myteam_colleague_profile</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d43a1f162f16201054daa1fef699b621</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>503a1f162f16201054daa1fef699b623</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:24:00</sys_updated_on>
+        <value>employee_type=Permanent</value>
+        <variable display_value="">8f400a1587003300663ca1bb36cb0b50</variable>
+    </sys_variable_value>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=043adb162f16201054daa1fef699b6f1^sys_idNOT IN583a1f162f16201054daa1fef699b618,903a1f162f16201054daa1fef699b61b,dc3a1f162f16201054daa1fef699b614"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">f32adb162f16201054daa1fef699b69b</block>
+        <comment/>
+        <connected_to>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>3.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>583a1f162f16201054daa1fef699b618</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>14cccdcd-cb51-4104-9030-6c7aaec1baf5</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=583a1f162f16201054daa1fef699b618"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">7b2adb162f16201054daa1fef699b69d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>903a1f162f16201054daa1fef699b61b</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>2b5b1fda-8742-420f-925f-eed678705aab</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=903a1f162f16201054daa1fef699b61b"/>
+    <sys_element_mapping action="delete_multiple" query="id=903a1f162f16201054daa1fef699b61b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>903a1f162f16201054daa1fef699b61b</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>583a1f162f16201054daa1fef699b61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{f1a442e0-c4fc-41ba-bc0b-0e01a52d22c7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">a72adb162f16201054daa1fef699b694</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Add New Global Tasks">043adb162f16201054daa1fef699b6f1</flow>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3.1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>2b5b1fda-8742-420f-925f-eed678705aab</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>dc3a1f162f16201054daa1fef699b614</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 16:00:35</sys_updated_on>
+        <ui_id>b9e6a258-3d6e-41f8-ba6e-891c3a65d2ef</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dc3a1f162f16201054daa1fef699b614"/>
+    <sys_element_mapping action="delete_multiple" query="id=dc3a1f162f16201054daa1fef699b614"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>dc3a1f162f16201054daa1fef699b614</id>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>9c3a1f162f16201054daa1fef699b617</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Created_1.current.task_type}}=MyTeam Task</value>
+    </sys_element_mapping>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_043adb162f16201054daa1fef699b6f1^sys_idNOT IN103a1f162f16201054daa1fef699b60e,483adb162f16201054daa1fef699b6f7"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_043adb162f16201054daa1fef699b6f1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:39</sys_created_on>
+        <sys_id>103a1f162f16201054daa1fef699b60e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:39</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_043adb162f16201054daa1fef699b6f1</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>adm.gareth.price</sys_created_by>
+        <sys_created_on>2021-02-15 15:21:38</sys_created_on>
+        <sys_id>483adb162f16201054daa1fef699b6f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MyTeam" source="x_357097_myteam">4fce6d492f12201054daa1fef699b61c</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MyTeam">4fce6d492f12201054daa1fef699b61c</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>adm.gareth.price</sys_updated_by>
+        <sys_updated_on>2021-02-15 15:21:38</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+</record_update>
